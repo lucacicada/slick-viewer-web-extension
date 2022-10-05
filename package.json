@@ -1,0 +1,22 @@
+{
+  "name": "slick-viewer-web-extension",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev:chromium",
+    "build": "rimraf dist && npm run build:chromium && npm run build:firefox",
+    "build:firefox": "vite build --mode=firefox --outDir dist/firefox",
+    "build:chromium": "vite build --mode=firefox --outDir dist/chromium",
+    "dev:firefox": "vite build --watch --mode=firefox",
+    "dev:chromium": "vite build --watch --mode=chromium"
+  },
+  "devDependencies": {
+    "@types/webextension-polyfill": "^0.9.1",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "rimraf": "^3.0.2",
+    "terser": "^5.15.0",
+    "vite": "^3.1.4",
+    "vue": "^3.2.40",
+    "web-ext": "^7.2.0",
+    "webextension-polyfill": "^0.10.0"
+  }
+}
