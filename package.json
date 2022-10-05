@@ -5,7 +5,7 @@
     "dev": "npm run dev:chromium",
     "build": "rimraf dist && npm run build:chromium && npm run build:firefox && npm run zip:chromium && npm run zip:firefox",
     "build:firefox": "vite build --mode=firefox --outDir dist/firefox",
-    "build:chromium": "vite build --mode=firefox --outDir dist/chromium",
+    "build:chromium": "vite build --mode=chromium --outDir dist/chromium",
     "zip:firefox": "web-ext build --artifacts-dir=dist/zips/firefox --source-dir=dist/firefox",
     "zip:chromium": "web-ext build --artifacts-dir=dist/zips/chromium --source-dir=dist/chromium",
     "dev:firefox": "vite build --watch --mode=firefox",
