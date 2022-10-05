@@ -30,41 +30,41 @@ This extension is free and open source:
 
 ### Rotate
 
-*Rotate is one of the cool feature that normally you wont find!*
+✨*Rotate is one of the cool feature that normally you wont find!*
 
-- Keep the right mouse button down + Mousewheel
-- Left click and drag on the screen edges
-- Hold down shift to change the rotation speed
+- 🖱️ Keep the right mouse button down + Mousewheel
+- 🖱️ Left click and drag on the screen edges
+- 🖱️ Hold down shift to change the rotation speed
 
 ### Zoom
 
-*The classic zoom, that actually works!*
+✨*The classic zoom, that actually works!*
 
-- Mousewheel, classic
+- 🖱️ Mousewheel, classic
 
 ### Pan
 
-*A fancy term to say, drag the image around!*
+✨ *A fancy term to say, drag the image around!*
 
-- Middle or left click anywhere on the screen
+- 🖱️ Middle or left click anywhere on the screen
 
 ### Select and enlarge an area
 
-*Ok you'll love this one, select an area and BOOM, you zoom in!*
+✨*Ok you'll love this one, select an area and BOOM, you zoom in!*
 
-- Right click and drag an area to zoom in
+- 🖱️ Right click and drag an area to zoom in
 
 ### Drag the image on a new tab or on your computer
 
 *Sometimes you just want to click and drag the image on your desktop...*
 
-- Shift + Left Click will preserve the original browser behavior
+- 🖱️ Shift + Left Click will preserve the original browser behavior
 
 ### Controls
 
-*Bru the keyboard, let's make good use of it!*
+🏖️ *Bru the keyboard, let's make good use of it!*
 
-- Spacebar or Numpad0 - Reset the image
+- ⌨️ Spacebar or Numpad0 - Reset the image
 
 ### Missing Features
 
