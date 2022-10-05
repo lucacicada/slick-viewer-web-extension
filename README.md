@@ -28,7 +28,11 @@ This extension is free and open source:
 - ✔️ Mega cool blurred background
 - ✔️ Free and open source
 
+---
+
 ### Rotate
+
+![Rotate](.assets/rotate.webm)
 
 ✨*Rotate is one of the cool feature that normally you wont find!*
 
@@ -36,17 +40,27 @@ This extension is free and open source:
 - 🖱️ Left click and drag on the screen edges
 - 🖱️ Hold down shift to change the rotation speed
 
+---
+
 ### Zoom
+
+![Zoom](.assets/zoom.webm)
 
 ✨*The classic zoom, that actually works!*
 
 - 🖱️ Mousewheel, classic
 
+---
+
 ### Pan
+
+![Pan](.assets/pan.webm)
 
 ✨ *A fancy term to say, drag the image around!*
 
 - 🖱️ Middle or left click anywhere on the screen
+
+---
 
 ### Select and enlarge an area
 
@@ -54,17 +68,23 @@ This extension is free and open source:
 
 - 🖱️ Right click and drag an area to zoom in
 
+---
+
 ### Drag the image on a new tab or on your computer
 
 *Sometimes you just want to click and drag the image on your desktop...*
 
 - 🖱️ Shift + Left Click will preserve the original browser behavior
 
+---
+
 ### Controls
 
 🏖️ *Bru the keyboard, let's make good use of it!*
 
 - ⌨️ Spacebar or Numpad0 - Reset the image
+
+---
 
 ### Missing Features
 
