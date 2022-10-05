@@ -1,6 +1,6 @@
 {
   "name": "Slick Viewer",
-  "version": "1",
+  "version": "1.0.0",
   "manifest_version": 3,
   "description": "Slick Viewer, a distraction-free image viewer for your browser.",
   "icons": {

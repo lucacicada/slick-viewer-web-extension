@@ -1,6 +1,6 @@
 {
   "name": "Slick Viewer",
-  "version": "1",
+  "version": "1.0.0",
   "manifest_version": 2,
   "description": "Slick Viewer, a distraction-free image viewer for your browser.",
   "icons": {
@@ -13,7 +13,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "slickviewer@webextension",
-      "strict_min_version": "52.0"
+      "strict_min_version": "55.0"
     }
   },
   "permissions": [
