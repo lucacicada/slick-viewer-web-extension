@@ -98,3 +98,51 @@ However, there are some feature that are missing:
 - ❌ There are no options, you cannot configure the extension... sad...
 - ❌ No 1:1 ratio, there is no way to display the image at its 1 to 1 ratio...
 - ❌ You cannot get rid of the blurry background... in case you have missed the point 2...
+
+### Run and build the Source
+
+You need `pnpm@7` installed.
+
+Install the dependencies:
+
+> `pnpm i`
+
+Build and generate the `.zip` files for both chromium and firefox:
+
+> `pnpm run build`
+
+Run a development version on Chrome with `web-ext`:
+
+> `pnpm run dev`
+
+#### For Chromium
+
+Run a development version in Chrome:
+
+> `pnpm run dev:chromium`
+
+Build:
+
+> `pnpm run build:chromium`
+
+Generate the `.zip` file after building:
+
+> `pnpm run zip:chromium`
+
+The generated file will be located in the folder [dist/zips/chromium/](dist/zips/chromium/)
+
+#### For Firefox
+
+Run a development version in Firefox:
+
+> `pnpm run dev:firefox`
+
+Build:
+
+> `pnpm run build:firefox`
+
+Generate the `.zip` file after building:
+
+> `pnpm run zip:firefox`
+
+The generated file will be located in the folder [dist/zips/firefox/](dist/zips/firefox/)
