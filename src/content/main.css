@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    @apply h-full;
+  }
+
+  body {
+    @apply relative overflow-hidden text-white bg-black;
+  }
+}

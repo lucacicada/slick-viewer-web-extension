@@ -1,0 +1,57 @@
+{
+  "name": "Slick Viewer",
+  "version": "2.0.0",
+  "default_locale": "en",
+  "{{chrome}}.manifest_version": 3,
+  "{{firefox}}.manifest_version": 2,
+  "description": "Slick Viewer, a distraction-free image viewer for your browser.",
+  "icons": {
+    "16": "icon/16.png",
+    "32": "icon/32.png",
+    "48": "icon/48.png",
+    "96": "icon/96.png",
+    "128": "icon/128.png"
+  },
+  "options_ui": {
+    "page": "src/options/index.html",
+    "open_in_tab": true
+  },
+  "{{firefox}}.browser_specific_settings": {
+    "gecko": {
+      "id": "slickviewer@webextension",
+      "strict_min_version": "55.0"
+    }
+  },
+  "{{chrome}}.action": {
+    "default_title": "Slick Viewer",
+    "default_popup": "src/popup/index.html"
+  },
+  "{{firefox}}.browser_action": {
+    "default_title": "Slick Viewer",
+    "default_popup": "src/popup/index.html"
+  },
+  "background": {
+    "{{chrome}}.service_worker": "src/background.ts",
+    "{{firefox}}.scripts": ["src/background.ts"]
+  },
+  "permissions": [
+    "storage"
+  ],
+  "optional_permissions": [
+    "{{firefox}}.<all_urls>"
+  ],
+  "{{chrome}}.optional_host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "src/content/main.ts"
+      ]
+    }
+  ]
+}
