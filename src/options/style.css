@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 @layer base {
+  html,
+  body {
+    block-size: 100%;
+  }
+
   body {
     color: white;
     background-color: rgb(36, 36, 36);
+    font-size: 16px;
   }
 }

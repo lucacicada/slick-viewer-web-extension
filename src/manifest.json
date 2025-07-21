@@ -22,25 +22,15 @@
       "strict_min_version": "55.0"
     }
   },
-  "{{chrome}}.action": {
-    "default_title": "Slick Viewer",
-    "default_popup": "src/popup/index.html"
-  },
-  "{{firefox}}.browser_action": {
-    "default_title": "Slick Viewer",
-    "default_popup": "src/popup/index.html"
-  },
   "background": {
     "{{chrome}}.service_worker": "src/background.ts",
     "{{firefox}}.scripts": ["src/background.ts"]
   },
   "permissions": [
-    "storage"
-  ],
-  "optional_permissions": [
+    "storage",
     "{{firefox}}.<all_urls>"
   ],
-  "{{chrome}}.optional_host_permissions": [
+  "{{chrome}}.host_permissions": [
     "<all_urls>"
   ],
   "content_scripts": [
