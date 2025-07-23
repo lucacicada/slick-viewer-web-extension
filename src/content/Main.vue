@@ -1,10 +1,6 @@
 <script setup lang="ts">
-import type { FullGestureState, StateKey } from '@vueuse/gesture'
-import { onKeyDown, useElementHover, useEventListener, useResizeObserver, watchImmediate } from '@vueuse/core'
-import { useDrag } from '@vueuse/gesture'
-import { ChevronDown, ImageIcon, ImageOff, Maximize, RotateCcw, RotateCw, SquarePower, Underline, ZoomIn, ZoomOut } from 'lucide-vue-next'
-import { computed, onMounted, ref, shallowRef, useTemplateRef } from 'vue'
-import browser from 'webextension-polyfill'
+import { ImageIcon, ImageOff, Maximize, RotateCcw, RotateCw, ZoomIn, ZoomOut } from 'lucide-vue-next'
+import { computed, ref, useTemplateRef } from 'vue'
 import { useSettings } from '../composables/useSettings'
 import { useViewportControl } from '../composables/useViewportControl'
 
