@@ -9,6 +9,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "dev:chrome": "cross-env TARGET=chrome vite",
     "dev:firefox": "cross-env TARGET=firefox vite",
     "build": "rimraf dist && rimraf dist-zip && vite build",
     "build:chrome": "rimraf dist && rimraf dist-zip && cross-env TARGET=chrome vite build",
