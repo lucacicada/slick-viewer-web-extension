@@ -101,19 +101,11 @@ However, there are some feature that are missing:
 
 ### Run and build the Source
 
-You need `pnpm@10` installed.
+You need `pnpm@10` and `node 22` installed.
 
 Install the dependencies:
 
 > `pnpm i`
-
-Build and generate the `.zip` files for both chromium and firefox:
-
-> `pnpm run build`
-
-Run a development version on Chrome with `web-ext`:
-
-> `pnpm run dev`
 
 #### For Chrome
 
