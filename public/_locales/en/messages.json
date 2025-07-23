@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "Slick Viewer",
+    "description": "Description of the extension."
+  },
+  "extensionDescription": {
+    "message": "Slick Viewer, a distraction-free image viewer for your browser.",
+    "description": "Description of the extension."
+  },
+  "contextMenuShowSettings": {
+    "message": "Settings",
+    "description": "Context menu Settings title."
+  }
+}

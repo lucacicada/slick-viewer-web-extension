@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="public/icons/icon.svg" alt="Logo" width="200">
+  <img src="public/icon/icon.svg" alt="Logo" width="200">
 </h1>
 
 <h1 align="center">
@@ -95,41 +95,29 @@ This extension is slick and actually amazing, I can't believe you have lived wit
 However, there are some feature that are missing:
 
 - ❌ Do not work for base64 images, this is a browser limitation...
-- ❌ There are no options, you cannot configure the extension... sad...
 - ❌ No 1:1 ratio, there is no way to display the image at its 1 to 1 ratio...
-- ❌ You cannot get rid of the blurry background... in case you have missed the point 2...
+- ✅ There are options, you can configure the extension!
+- ✅ You can get rid of the blurry background!
 
 ### Run and build the Source
 
-You need `pnpm@7` installed.
+You need `pnpm@10` and `node 22` installed.
 
 Install the dependencies:
 
 > `pnpm i`
 
-Build and generate the `.zip` files for both chromium and firefox:
-
-> `pnpm run build`
-
-Run a development version on Chrome with `web-ext`:
-
-> `pnpm run dev`
-
-#### For Chromium
+#### For Chrome
 
 Run a development version in Chrome:
 
-> `pnpm run dev:chromium`
+> `pnpm run dev:chrome`
 
 Build:
 
-> `pnpm run build:chromium`
+> `pnpm run build:chrome`
 
-Generate the `.zip` file after building:
-
-> `pnpm run zip:chromium`
-
-The generated file will be located in the folder [dist/zips/chromium/](dist/zips/chromium/)
+The generated file will be located at [dist-zip/slick-viewer-chrome.zip](dist-zip/slick-viewer-chrome.zip)
 
 #### For Firefox
 
@@ -141,8 +129,4 @@ Build:
 
 > `pnpm run build:firefox`
 
-Generate the `.zip` file after building:
-
-> `pnpm run zip:firefox`
-
-The generated file will be located in the folder [dist/zips/firefox/](dist/zips/firefox/)
+The generated file will be located at [dist-zip/slick-viewer-firefox.zip](dist-zip/slick-viewer-firefox.zip)
